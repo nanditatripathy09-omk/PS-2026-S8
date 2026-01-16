@@ -23,7 +23,7 @@ This is a simple tutorial for Design and Simulation of Buck Converter.
 
 We are going to wire the above schemtic.
 - **Basic Schematic Commands**:
-  - To fit shole schematic in the screen: `View -> Normal(100%)` (`Ctl+=`)
+  - To fit whole schematic in the screen: `View -> Normal(100%)` (`Ctl+*`)
   - Drag elements: `Left-click->Drag`
     - **NOTE** For connected device, `MiddleClick -> Drag` to move without draging the wires.
   - Rotate/Flip: `Select Element -> Ctrl+R/F`
@@ -36,8 +36,11 @@ We are going to wire the above schemtic.
   - `V_dc`: 20 V
   - Diode : $V_f = 0.8V$ , $R_{ON} = 0.8 \Omega$
   - MOSFET: $R_{ON}=0.1 \Omega$  
-  - Inductor: $L = 1e-3$
+  - Inductor: $L = 1m H$
   - Capacitor: $C = 6.25 \mu F$
-  - Resistors: $R1 = 10 \Omega$ 
+  - Resistors: $R1 = 10 \Omega$
+  - Pulse Source: $Freq = 50e3 Hz$
+- **Simulation**
+  - 
 
 
