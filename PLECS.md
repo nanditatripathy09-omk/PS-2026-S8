@@ -15,7 +15,7 @@ This is a simple tutorial for Design and Simulation of Buck Converter.
   - MOSFET and Diode (`LibraryBrowser->Electrical->Power Semiconductors-> MOSFET/Diode`)
   - Ammeter and Voltmeter (`LibraryBrowser->Electrical->Meters->Ammeter/Voltmeter`)
   - Scope and Display(`Library->System-> Scope/Display`)
-  - Pulse Generator ( `Library->Control->Sources-> Pulse Generator)
+  - Pulse Generator ( `Library->Control->Sources-> Pulse Generator`)
 
 ![images/plecs-schematic-buck.jpg](Buck Converter Schematic)
 
