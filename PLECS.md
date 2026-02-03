@@ -2,7 +2,7 @@
 
 This is a documentaion repo for everything [PLECS](https://plexim.com).
 
-# Getting Started
+# BUCK CONVERTER
 
 This is a simple tutorial for Design and Simulation of Buck Converter.
 
@@ -10,13 +10,13 @@ This is a simple tutorial for Design and Simulation of Buck Converter.
 - Create a new model _schematic_: Click `Create -> new model` OR (`Ctrl+n`), a blank schematic page (_SchematicPage_) will appear.
 - Open the library browser: `SchematicPage -> Window -> Library Browser` (`Ctrl+L`)
 - **Select Library Elements** (In SchematicPage):
-  - Select DC Voltage Source (`LibraryBrowser->Electrical->Sources-> Voltage Source DC`) : Drag and droop it in the SchematicPAge
+  - Select DC Voltage Source (`LibraryBrowser->Electrical->Sources-> Voltage Source DC`) : Drag and droop it in the SchematicPage
   - Inductor/Resistor/Capacitor (`LibraryBrowser-> Electrical-> Passive Components-> Inductor/Resistor/Capacitor`)
   - MOSFET/Diode (`LibraryBrowser->Electrical->Power Semiconductors-> MOSFET/Diode`)
   - Ammeter/Voltmeter (`LibraryBrowser->Electrical->Meters->Ammeter/Voltmeter`)
   - Scope/Display(`Library->System-> Scope/Display`)
   - Pulse Generator ( `Library->Control->Sources-> Pulse Generator`)
-  - **SAVE**: `File->SavAs`
+  - **SAVE**: `File->Save As`
 
 - **Draw Schematic**
 ![Buck Converter Schematic](images/plecs-schematic-buck.jpeg)
@@ -32,7 +32,7 @@ We are going to wire the above schemtic.
   - Changing Parameters for eg. Scope: `DoubleClick` on elemet, `File-> ScopeParameters -> no Of Plots`
   - **NOTE** Keep saving
   - Changing _Instance Name_ : `DoubleClick` on the name of the instance (eg. `V_dc`) and change the name.
-- **Udate schematic Parameters**:
+- **Update schematic Parameters**:
   - `V_dc`: 20 V
   - Diode : $V_f = 0.8V$ , $R_{ON} = 0.8 \Omega$
   - MOSFET: $R_{ON}=0.1 \Omega$  
@@ -41,6 +41,24 @@ We are going to wire the above schemtic.
   - Resistors: $R1 = 10 \Omega$
   - Pulse Source: $Freq = 50e3 Hz$
 - **Simulation**
-  - 
+   - To start the simulation (`Simulation->Start`) OR (`Ctrl+t`).
+   - To set the time span of simulation:`Simulation->Simulation parameters->Time span` OR (`Ctrl+l`)
+   - Observe the Output volatage on the display block.
+   - The output voltage should be higher than the input voltage,here it should be `V_m1`: 11.11 V.
+
+#  BOOST CONVERTER
+
+  Tutorial for design and simulation of Boost converter.
+
+- Create a new model _schematic_: Click `Create -> new model` OR (`Ctrl+n`), a blank schematic page (_SchematicPage_) will appear.
+- Open the library browser: `SchematicPage -> Window -> Library Browser` (`Ctrl+L`)
+- **Select Library Elements** (In SchematicPage):
+  - Select DC Voltage Source (`LibraryBrowser->Electrical->Sources-> Voltage Source DC`) : Drag and droop it in the SchematicPage
+  - Inductor/Resistor/Capacitor (`LibraryBrowser-> Electrical-> Passive Components-> Inductor/Resistor/Capacitor`)
+  - MOSFET/Diode (`LibraryBrowser->Electrical->Power Semiconductors-> MOSFET/Diode`)
+  - Ammeter/Voltmeter (`LibraryBrowser->Electrical->Meters->Ammeter/Voltmeter`)
+  - Scope/Display(`Library->System-> Scope/Display`)
+  - Pulse Generator ( `Library->Control->Sources-> Pulse Generator`)
+  - **SAVE**: `File->Save As`
 
 
