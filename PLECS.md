@@ -100,7 +100,8 @@ Wiring the above schematic:
    - Connect the `Voltmeter Vm1` to the 3rd subplot of the scope.
    - Using the scope parameters we can Label the Graph,name the axis.
    - **Output waveform**
-     -![Boost Converter Scope Waveform](<img width="1920" height="1080" alt="BoostScope_Output" src="https://github.com/user-attachments/assets/3f0227d1-adcc-4955-8c5d-835123635739"/>)
+     -![Boost Converter Scope Waveform](images/BoostScope_Output.png)
+
      
     
     
