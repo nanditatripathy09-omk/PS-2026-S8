@@ -44,7 +44,9 @@ We are going to wire the above schemtic.
    - To start the simulation (`Simulation->Start`) OR (`Ctrl+t`).
    - To set the time span of simulation:`Simulation->Simulation parameters->Time span` OR (`Ctrl+l`)
    - Observe the Output volatage on the display block.
-   - The output voltage should be higher than the input voltage,here it should be `V_m1`: 11.11 V.
+   - The output voltage should be higher than the input voltage,here it should be `V_m1`: 5.126 V.
+   - **NOTE** If there wii be any simulation error or any error in circuit connection then `Diagnostics` window will appear,highlighting the error part in the cirucit.
+    
 
 #  BOOST CONVERTER
 
@@ -61,4 +63,45 @@ We are going to wire the above schemtic.
   - Pulse Generator ( `Library->Control->Sources-> Pulse Generator`)
   - **SAVE**: `File->Save As`
 
+- **Draw Schematic**
+- ![Boost Converter Schematic](images/Boost_SchematicDiagram.png)
+
+Wiring the above schematic:
+
+- **Basic Schematic Commands**:
+  - To fit whole schematic in the screen: `View -> Normal(100%)` (`Ctl+*`)
+  - Drag elements: `Left-click->Drag`
+    - **NOTE** For connected device, `MiddleClick -> Drag` to move without draging the wires.
+  - Rotate/Flip: `Select Element -> Ctrl+R/F`
+  - Copy/Paste: `Ctrl+C/V`
+  - Connecting Wires: `SelectNode` (Plus sign appears) `-> LeftClick -> Drag` to connecting node.
+  - Changing Parameters for eg. Scope: `DoubleClick` on elemet, `File-> ScopeParameters -> no Of Plots`
+  - **NOTE** Keep saving
+  - Changing _Instance Name_ : `DoubleClick` on the name of the instance (eg. `V_dc`) and change the name.
+
+ - **Update schematic Parameters**:
+  - `V_dc`: 12 V
+  - Diode : $V_f = 0.8V$ , $R_{ON} = 0.001 \Omega$
+  - MOSFET: $R_{ON}=0.1 \Omega$  
+  - Inductor: $L = 120 \mu H$
+  - Capacitor: $C = 48 \mu F$
+  - Resistors: $R1 = 50 \Omega$
+  - Pulse Source: $Freq = 25e3 Hz$
+  - Duty cycle=0.6
+- **Simulation**
+   - To start the simulation (`Simulation->Start`) OR (`Ctrl+t`).
+   - To set the time span of simulation:`Simulation->Simulation parameters->Time span` OR (`Ctrl+l`)
+   - Observe the Output volatage on the display block.
+   - The output voltage should be higher than the input voltage,here it should be `V_m1`: 29.277 V.
+  - **NOTE** If there wii be any simulation error or any error in circuit connection then `Diagnostics` window will appear,highlighting the error part in the cirucit.
+-**Graph Analysis**
+   - Connect the `Pulse Generator` to the 1st subplot of the scope.
+   - Connect the `Ammeter Am1` to the 2nd subplot of the scope.
+   - Connect the `Voltmeter Vm1` to the 3rd subplot of the scope.
+   - Using the scope parameters we can Label the Graph,name the axis.
+   - **Output waveform**
+     -![Boost Converter Scope Waveform](<img width="1920" height="1080" alt="BoostScope_Output" src="https://github.com/user-attachments/assets/3f0227d1-adcc-4955-8c5d-835123635739"/>)
+     
+    
+    
 
