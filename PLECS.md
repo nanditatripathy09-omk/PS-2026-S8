@@ -62,7 +62,7 @@ We are going to wire the above schemtic.
       - All the data will appear in the data window at the bottom of the scope window.
     - The plot can  be saved as pdf file by (`File->Export->As pdf`).
   - **PLOT**
-     ![Buck Converter Scope](images/Buck_scope.png)
+     ![Buck Converter Scope](images/Buck_Scope.png)
     
 
 
