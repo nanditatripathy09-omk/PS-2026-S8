@@ -57,12 +57,18 @@ We are going to wire the above schemtic.
       - Two vertical lines will appear on the plot(Cursor1 and Cursor2).
       - We can select the range by dragging the cursors as per requirement.
       - Click on the drop down arrow beside it.
-      - Now select the properties like (Max,min,THD,Delta,RMS,Slope,etc).
+      - Now select the properties like (Max,min,THD(Total Harmonic Distortion),Delta,RMS,Slope,etc).
       - This will give all the local properties within the choosen range.
       - All the data will appear in the data window at the bottom of the scope window.
-    - The plot can  be saved as pdf file by (`File->Export->As pdf`).
-  - **PLOT**
+      - The plot can  be saved as pdf file by (`File->Export->As pdf`).
+   - **PLOT**
      ![Buck Converter Scope](images/Buck_Scope.png)
+
+      - In the above shown plot,the range was taken from 1 to 2 in the time axis: `(Cursor1 at 1)` and `(Cursor2 at 2)`.
+      - After setting the range we get all the properties of the plot such as:
+        - For Inductor Current: Delta=`0.0894574`, Min value=`0.981195`,Max value=`1.17455`,Abs Max Value=`1.17455`,Mean=`1.09471`,RMS value=`1.09542`,THD=`1.84318`.
+        - For Output Voltage: Delta=`1.05608` Min value=`10.1595`,Max value=`11.2564`,Abs Max Value=`11.2564`,Mean=`10.9073`,RMS value=`10.9112`,THD=`0.857862`.
+   
     
 
 
