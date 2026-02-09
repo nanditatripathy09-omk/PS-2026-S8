@@ -68,6 +68,21 @@ We are going to wire the above schemtic.
       - After setting the range we get all the properties of the plot such as:
         - For Inductor Current: Delta=`0.0894574`, Min value=`0.981195`,Max value=`1.17455`,Abs Max Value=`1.17455`,Mean=`1.09471`,RMS value=`1.09542`,THD=`1.84318`.
         - For Output Voltage: Delta=`1.05608` Min value=`10.1595`,Max value=`11.2564`,Abs Max Value=`11.2564`,Mean=`10.9073`,RMS value=`10.9112`,THD=`0.857862`.
+       
+  # Thermal Modelling Of the Switch
+  
+     Following steps describe the procedure of thermal modelling of Power Semiconductor device.
+
+     - After completing the design of the circuit,to add the thermal description : Click on the Switch(here MOSFET). A page with `Parameters`,`Thermal`,`Assertion` will appear.
+     - To add the thermal Description: Click `Thermal->New Thermal description`. The device parameter wimdow appears.
+     - Give the name of the Manufacturer and its Part,and also select the type of the switch (here MOSFET).
+     - The parameters such as Voltage,Current,Energy and Temperature is taken from datasheet.
+     - From a MOSFET datasheet observe the values and graphs for Voltage,Current,Energy and Temperature.
+     - Take atleast 2 to 3 Temperature reading and the corresponding switching data for turn-on and turn-off switching losses.
+     - To give multiple value in the table for Temperature/Voltage/Current `(Right click on 25'C/0V/0A->New temperature values/Voltage values/Current Values)`.
+     - Enter the Energy values by selecting the block corresponding to the voltage and current values.
+     - The graph will automatically display the 3D structure according to the given values.
+     - Below shown image is the graph of Turn-on loss:
    
     
 
