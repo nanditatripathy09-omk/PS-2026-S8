@@ -123,7 +123,8 @@ We are going to wire the above schemtic.
     - To change the number of outputs of Demultiplexer Click `Signal Demultiplexer->Number of output Ports`. 
     - Set the number of output ports equal to the number of `Component Signals`.
     - Now Connect the Probe to the scope through the Signal Demultiplexer.
-        
+    - Graph for the Component Signals:
+       ![The Component Signals](images/Probe.png)
 
 
      
