@@ -86,7 +86,7 @@ We are going to wire the above schemtic.
       ![Turn-on loss](images/Turn-on_loss.png)
 
      - Similarly for turn-off loss follow the same guidelines mentioned above.
-     - Below shown image is the graph of Turn-on loss:
+     - Below shown image is the graph of Turn-off loss:
       ![Turn-off loss](images/Turn-off_loss.png)
 
      - For `CONDUCTION LOSS` : To give multiple value in the table for Temperature/Current `(Right click on 25'C/0A->New temperature values/Current Values)`.
