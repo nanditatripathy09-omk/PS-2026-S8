@@ -73,11 +73,16 @@ We are going to wire the above schemtic.
   
      Following steps describe the procedure of thermal modelling of Power Semiconductor device.
 
+     - Find a datasheet for the switch used in the design(here we used MOSFET) and save it in the folder.
      - After completing the design of the circuit,to add the thermal description : Click on the Switch(here MOSFET). A page with `Parameters`,`Thermal`,`Assertion` will appear.
      - To add the thermal Description: Click `Thermal->New Thermal description`. The device parameter wimdow appears.
-     - Give the name of the Manufacturer and its Part,and also select the type of the switch (here MOSFET).
+     - to add the data: Select the name of the Manufacturer of the datasheet and its Part(which we are going to use) or we can add the data manually,and also select the type of the switch (here MOSFET).
      - The parameters such as Voltage,Current,Energy and Temperature is taken from datasheet.
-     - From a MOSFET datasheet observe the values and graphs for Voltage,Current,Energy and Temperature.
+     - From the MOSFET datasheet observe the values and graphs for:
+        - Voltage
+        - Current
+        - Energy
+        - Temperature
      - Take atleast 2 to 3 Temperature reading and the corresponding switching data for turn-on and turn-off switching losses.
      - To give multiple value in the table for Temperature/Voltage/Current `(Right click on 25'C/0V/0A->New temperature values/Voltage values/Current Values)`.
      - Enter the Energy values by selecting the block corresponding to the voltage and current values.
