@@ -86,6 +86,10 @@ We are going to wire the above schemtic.
      - To give multiple value in the table for Temperature/Voltage/Current `(Right click on 25'C/0V/0A->New temperature values/Voltage values/Current Values)`.
      - Enter the Energy values by selecting the block corresponding to the voltage and current values.
      - The graph will automatically display the 3D structure according to the given values.
+     - The attached PDF is the official datasheet of the switching device used in this design:
+     - ![ROHM Datasheet](images/ROHM_Datasheet(MOSFET).pdf)
+     - Simplified PDF of the above datasheet:
+     - ![Datasheet](images/Datasheet.pdf)
      - Below shown image is the graph of Turn-on loss:
       ![Turn-on loss](images/Turn-on_loss.png)
 
